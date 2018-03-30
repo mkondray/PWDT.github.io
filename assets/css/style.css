@@ -1,0 +1,93 @@
+body {
+	background-image: url("../images/wallpaper.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+
+/* ↓ Jumbotron Styling ↓ */
+	.jumbotron {
+		text-align: center;
+		background-color: #4C4C4C;
+		color: #14BCE2;
+		text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+	}
+
+	.jumbotron-title {
+		font-size: 50px;
+	}
+
+	.jumbotron-subtitle {
+		font-size: 30px;
+		font-style: italic;
+		color: #BAFFC4;
+		padding-top: 15px;
+		text-align: right;
+	}
+/* ↑ Jumbotron Sytling ↑ */
+
+
+/* ↓ Photo Section ↓ */
+	.homepage-photos {
+		margin-bottom: 32px;
+	}
+/* ↑ Photo Section ↑ */
+
+
+/* ↓ Navbar Styling ↓ */
+	.navbar {
+		padding: 20px;
+		background-color: #4C4C4C;
+		font-size: 25px;
+	}
+
+	.navbar-toggler {
+		border-color: #14BCE2;
+		transition: border-color 0.5s;
+	}
+
+	.navbar-toggler:hover {
+		border-color: #BAFFC4;
+	}
+
+	.fa-sun {
+		font-size: 200px;
+		color: yellow;
+	}
+
+	.fa-bars {
+		font-size: 30px;
+		color: #14BCE2;
+		transition: color 0.5s;
+	}
+
+	.navbar-toggler:hover > .fa-bars {
+		color: #BAFFC4;
+	}
+
+	.nav-link {
+		color: #14BCE2;
+		transition: color 0.5s;
+	}
+
+	.nav-link:hover {
+		color: #BAFFC4;
+	}
+
+	.active {
+		color: #BAFFC4;
+		text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+	}
+/* ↑ Navbar Styling ↑ */
+
+.sup {
+	padding-bottom: 900px;
+}
